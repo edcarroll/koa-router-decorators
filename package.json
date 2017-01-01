@@ -1,0 +1,30 @@
+{
+  "name": "@edcarroll/koa-router-decorators",
+  "version": "1.0.0",
+  "description": "Convenience decorators for koa-router",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "dependencies": {
+    "@types/koa": "^2.0.32",
+    "@types/koa-router": "^7.0.20",
+    "@types/node": "^6.0.38",
+    "koa-router": "^7.0.1",
+    "reflect-metadata": "^0.1.8"
+  },
+  "devDependencies": {
+    "typescript": "~2.0.2"
+  },
+  "scripts": {
+    "prepublish": "./node_modules/.bin/tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edcarroll/koa-router-decorators.git"
+  },
+  "author": "Edward Carroll",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edcarroll/koa-router-decorators/issues"
+  },
+  "homepage": "https://github.com/edcarroll/koa-router-decorators#readme"
+}
