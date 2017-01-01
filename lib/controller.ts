@@ -60,7 +60,7 @@ export function useController(router:KoaRouter, controller:any):void {
 export function Controller(pathPrefix:string, ...middleware:IMiddleware[]) {
     return function(constructor:Function):void {
         let router = new KoaRouter();
-        router.prefix(path);
+        router.prefix(pathPrefix);
 
         Reflect.defineMetadata('routing:router', router, constructor.prototype);
         Reflect.defineMetadata('routing:middleware', middleware, constructor.prototype);
