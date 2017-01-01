@@ -21,6 +21,7 @@
     "type": "git",
     "url": "git+https://github.com/edcarroll/koa-router-decorators.git"
   },
+  "keywords": ["koa", "router", "typescript", "es7", "decorator"],
   "author": "Edward Carroll",
   "license": "MIT",
   "bugs": {
